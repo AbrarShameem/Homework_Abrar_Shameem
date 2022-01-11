@@ -1,8 +1,8 @@
 package fibonacci;
-
 public class FibonacciNumbers {
 
     public static void main(String[] args) {
+
         int dp[] = new int[21];
         // Initializing fibonacci values for 0th and 1st number
         dp[0] = 0;
@@ -15,7 +15,9 @@ public class FibonacciNumbers {
         for (int i = 0; i <= 20; i ++) {
             System.out.println("Fibonacci Number for n = " + i + " is " + dp[i]);
         }
+
     }
+
 }
 
 
