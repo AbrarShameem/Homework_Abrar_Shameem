@@ -157,7 +157,7 @@ public class JUnitTest {
 
         Assert.assertEquals(expectedTotal, actualTotal);
 
-        System.out.println("test 8 passed");
+        System.out.println("test 8 failed");
     }
 
     @Test
@@ -168,6 +168,6 @@ public class JUnitTest {
         int expectedTotal = 10000;
         actualTotal = g * f;
         Assert.assertEquals(expectedTotal, actualTotal);
-        System.out.println("test 9 passed");
+        System.out.println("test 9 failed");
     }
 }
