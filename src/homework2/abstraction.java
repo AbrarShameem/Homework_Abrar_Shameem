@@ -17,7 +17,7 @@ abstract class Dog {
 	
 	public abstract void Poop ();
 }
-
+//hw
 class Chihuahua extends Dog{
 	public void Poop() {
 		System.out.println("Dog pooped!");

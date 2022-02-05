@@ -20,7 +20,7 @@ public class FactorialsIterationRecursion {
         }
         return factorial;
     }
-
+//hw
     public static void main(String[] args) {
         try (Scanner scanner = new Scanner(System.in)) {
 

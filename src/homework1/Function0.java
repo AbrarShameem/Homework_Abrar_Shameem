@@ -1,7 +1,7 @@
 package homework1;
 
 public class Function0 {
-
+//hw
 	public static void main(String[] args) {
 		String string1 = "Hello";
 		String string2 = "hello";
